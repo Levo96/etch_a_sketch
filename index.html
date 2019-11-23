@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <div id="main">
+    <div id="board">
+      <div id="board_title_container" class="board_items">
+        <h1 id="board_title"><span id="bt_sketch_word">Sketch</span> Pad</h1>
+      </div>
+      <div id="sketch_board_container" class="board_items">
+        <div id="sketch_board">
+
+        </div>
+      </div>
+      <div id="board_buttons_container" class="board_items">
+        <div class="board_items_containers" id="bic_left">
+          <button class="board_buttons" id="size_button">SIZE</button>
+          <button class="board_buttons" id="reset_button">RESET</button>
+        </div>
+        <div class="board_items_containers" id="bic_center">
+          <button class="board_buttons" id="clear_button">CLEAR</button>
+          <button class="board_buttons" id="eraser_button">ERASER</button>
+        </div>
+        <div class="board_items_containers" id="bic_right">
+          <button class="board_buttons" id="colors_button">COLORS</button>
+          <button class="board_buttons" id="rainbow_buttons">RAINBOW</buttons>
+        </div>
+      </div>
+    </div>
+    <div id="color_picker_board">
+      <div id="close_button_container" class="cpb_items">
+        <button id="cpb_close_button">X</button>
+      </div>
+      <div id="colors_container" class="cpb_items">
+        <div class="cc_spacer"></div>
+        <div id="cc_colors">
+          <div id="red" class="colors_items"></div>
+          <div id="orange" class="colors_items"></div>
+          <div id="yellow" class="colors_items"></div>
+          <div id="green" class="colors_items"></div>
+          <div id="blue" class="colors_items"></div>
+          <div id="purple" class="colors_items"></div>
+          <div id="brown" class="colors_items"></div>
+          <div id="pink" class="colors_items"></div>
+          <div id="black" class="colors_items"></div>
+          <div id="grey" class="colors_items"></div>
+          <div id="lime" class="colors_items"></div>
+          <div id="dodgerBlue" class="colors_items"></div>
+          <div id="navy" class="colors_items"></div>
+          <div id="seaGreen" class="colors_items"></div>
+          <div id="violet" class="colors_items"></div>
+          <div id="Indigo_" class="colors_items"></div>
+        </div>
+        <div class="cc_spacer"></div>
+      </div>
+      <div id="cpb_spacer_bottom" class="cpb_items">
+        <button id="cbpi_random_button" class="cpbi_buttons">Random</button>
+        <button id="cbpi_shader_button" class="cpbi_buttons">Shader</button>
+      </div>
+    </div>
+    <div id="grid_size_input">
+      <div id="gsi_ione" class="gsi_items">
+        <h3 id="gsi_ione_title">SET A SIZE</h3></br>
+        <p class="gsi_ione_sub_text">Standard Size : 16</p>
+        <p class="gsi_ione_sub_text">Set a Size : 1 -> 100</p>
+      </div>
+      <div id="gsi_itwo" class="gsi_items">
+        <input type="text" id="user_input_g_size"/>
+      </div>
+      <div id="gsi_ithree" class="gsi_items">
+        <button id="OK_button" class="gsi_ithree_buttons">OK</button>
+        <button id="cancel_button" class="gsi_ithree_buttons">CANCEL</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

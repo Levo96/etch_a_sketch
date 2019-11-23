@@ -7,13 +7,27 @@
 </head>
 <body>
   <div id="main">
+    <div id="main_spacer"></div>
     <div id="board">
       <div id="board_title_container" class="board_items">
         <h1 id="board_title"><span id="bt_sketch_word">Sketch</span> Pad</h1>
       </div>
       <div id="sketch_board_container" class="board_items">
+        <div id="grid_size_input">
+          <div id="gsi_ione" class="gsi_items">
+            <h3 id="gsi_ione_title">SET A SIZE</h3></br>
+            <p class="gsi_ione_sub_text">Standard Size : 16</p>
+            <p class="gsi_ione_sub_text">Set a Size : 1 -> 100</p>
+          </div>
+          <div id="gsi_itwo" class="gsi_items">
+            <input type="text" id="user_input_g_size"/>
+          </div>
+          <div id="gsi_ithree" class="gsi_items">
+            <button id="OK_button" class="gsi_ithree_buttons">OK</button>
+            <button id="cancel_button" class="gsi_ithree_buttons">CANCEL</button>
+          </div>
+        </div>
         <div id="sketch_board">
-
         </div>
       </div>
       <div id="board_buttons_container" class="board_items">
@@ -62,20 +76,7 @@
         <button id="cbpi_shader_button" class="cpbi_buttons">Shader</button>
       </div>
     </div>
-    <div id="grid_size_input">
-      <div id="gsi_ione" class="gsi_items">
-        <h3 id="gsi_ione_title">SET A SIZE</h3></br>
-        <p class="gsi_ione_sub_text">Standard Size : 16</p>
-        <p class="gsi_ione_sub_text">Set a Size : 1 -> 100</p>
-      </div>
-      <div id="gsi_itwo" class="gsi_items">
-        <input type="text" id="user_input_g_size"/>
-      </div>
-      <div id="gsi_ithree" class="gsi_items">
-        <button id="OK_button" class="gsi_ithree_buttons">OK</button>
-        <button id="cancel_button" class="gsi_ithree_buttons">CANCEL</button>
-      </div>
-    </div>
+
   </div>
 </body>
 </html>

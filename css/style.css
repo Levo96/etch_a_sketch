@@ -23,7 +23,12 @@ html, body {
 #main {
   height: 100%;
   display: flex;
+  justify-content: center;
   background-color: darkslategray;
+}
+
+#main_spacer {
+  flex-grow: 0.5;
 }
 
 /* ------------------------------------------- */
@@ -31,7 +36,6 @@ html, body {
 /* --------------- BOARD DESIGN -------------- */
 /*--- Board Design ---*/
 #board {
-  margin: auto auto;
   width: 50%;
   height: 95%;
   background-color: red;
@@ -73,8 +77,7 @@ html, body {
   background-color: white;
   border: 3px solid black;
   border-radius: 10px;
-
-
+  z-index: 1;
 }
 
 #board_buttons_container {
@@ -102,18 +105,21 @@ html, body {
 }
 
 #color_picker_board {
-  position: absolute;
+  /* position: absolute */
   width: 19rem;
   height: 19rem;
   border: 1px solid black;
-  top: 150px;
-  left: 970px;
+  /* top: 150px; */
+  /* left: 970px; */
   border: 4px solid grey;
   border-left-color: red;
   background-color: red;
   display: flex;
   flex-direction: column;
+  align-self: center;
   visibility: hidden;
+  margin-left: -5px;
+
 }
 
 .cpb_items {
@@ -183,10 +189,6 @@ html, body {
 
 #grid_size_input {
   position: absolute;
-  top: 118px;
-  left: 360px;
-  width: 36rem;
-  height: 22rem;
   z-index: 3;
   border-radius: 10px;
   display: flex;
@@ -196,6 +198,7 @@ html, body {
 
 .gsi_items {
   width: 100%;
+  margin: 10px 0;
 }
 
 #gsi_ione {

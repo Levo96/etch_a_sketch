@@ -1,12 +1,4 @@
-/* ==================================================
-
-Author: Levan Mebonia
-
-
-Username: levo96
-
-
-Projekt: Etch a sketch
+Etch a Sketch
 
 
 You can also view this project : (https://codepen.io/levo96/full/VwwgGeB)
@@ -29,4 +21,3 @@ You can also view this project : (https://codepen.io/levo96/full/VwwgGeB)
 
 
 
-================================================================== */
